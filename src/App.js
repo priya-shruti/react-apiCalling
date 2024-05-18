@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
-import RulesHooks from "./component/rulesHooks";
-import UseStateArray from "./component/UseStateArray";
-import BasicForm from "./component/forms/basicForm";
+// import RulesHooks from "./component/rulesHooks";
+// import UseStateArray from "./component/UseStateArray";
+// import BasicForm from "./component/forms/basicForm";
 import UseEffectAPI from "./component/forms/useEffect/useEffectAPI";
 
 const App = () => {

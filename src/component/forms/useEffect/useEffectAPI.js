@@ -3,8 +3,12 @@ import React, { useEffect, useState } from "react";
 const UseEffectAPI = () => {
   const [users, setUsers] = useState([]);
   const getUsers = async () => {
-    const response = await fetch("https://api.github.com/users");
-    setUsers(await response.json());
+    try {
+      const response = await fetch("https://api.github.com/users");
+      setUsers(await response.json());
+    } catch (error) {
+      console.log("my error is" + error);
+    }
   };
   useEffect(() => {
     getUsers();
