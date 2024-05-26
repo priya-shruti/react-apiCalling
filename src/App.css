@@ -1,4 +1,4 @@
-html {
+/* html {
   font-size: 62.5%;
 }
 body {
@@ -48,4 +48,68 @@ h2 {
 }
 .number3 {
   font-weight: 500;
+} */
+/* html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #34495e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+}
+.App {
+  text-align: center;
+}
+.App-link {
+  color: #8be3fb;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+p {
+  font-size: 4rem;
+}
+h1 {
+  font-size: 7rem;
+  text-transform: capitalize;
+}
+.h1style {
+  min-width: 20rem;
+  width: 60rem;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.main-div {
+  min-height: 100vh;
+  background: #dfe0f8;
+  display: flex;
+  justify-content: center;
+}
+.child-div {
+  text-align: center;
+  margin-top: 12rem;
+  font-size: 20px;
+}
+.btn {
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: rgb(149, 183, 195);
 }
