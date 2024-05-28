@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import "./App.css";
 
-import Todo from "./component/todo";
+// import Todo from "./component/todo";
+import GalleryReact from "./component/GalleryReact";
 
 const App = () => {
   return (
     <div>
-      <Todo />
+      <GalleryReact />
     </div>
   );
 };
